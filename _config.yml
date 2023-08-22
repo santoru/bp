@@ -1,7 +1,7 @@
 title: Strata by HTML5 UP
 description: >
-  **I am Strata**, a super simple
-  responsive site template freebie
+  **I am Strata**, a super simple\n
+  responsive site template freebie\n
   crafted by [HTML5 UP](http://html5up.net).
 copyright: Untitled
 sass:
@@ -26,3 +26,7 @@ collections:
   bikeparks:
     output: true
     permalink: /:collection/:path/
+
+
+str_price: Prezzo
+str_currency: euro
