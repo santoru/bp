@@ -1,8 +1,10 @@
 ---
 layout: post
-title: 'Hello World!'
+title: 'Caldirola Bike Park'
 categories: Meta
 excerpt: 'Hello World! Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit.'
+google-maps:
+prices: 22euro
 ---
 
 Hello World!
