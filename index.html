@@ -5,7 +5,7 @@ image: /images/fulls/01.jpg
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
   <section>
-    <h2><a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a></h2>
+    <h2><a href="{{ post.url | prepend: site.url }}">{{ post.title }}</a></h2>
     <p>
       <span><i class="fa fa-calendar"></i> {{ post.date | date: "%d %B %Y" }}{% if post.categories %} on <i class="fa fa-tags"></i> {{ post.categories | join: ', ' }}{% endif %}</span>
     </p>
@@ -20,7 +20,7 @@ image: /images/fulls/01.jpg
   <div class="row">
     {% for bp in site.bikeparks %}
       <article class="6u 12u$(xsmall) work-item">
-				<a href="{{ bp.url }}" class="image fit thumb"><img src="{{ site.github.url }}/images/bp/caldirola-bikepark.jpg" alt="" /></a>
+				<a href="{{ bp.url }}" class="image fit thumb"><img src="{{ site.url }}/images/bp/caldirola-bikepark.jpg" alt="" /></a>
         <h3>{{ bp.name }} - {{ bp.location }}</h3>
 				<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
 			</article>

@@ -3,9 +3,7 @@ description: "**I am Strata**, a super simple\nresponsive site template freebie\
 copyright: Untitled
 sass:
   sass_dir: assets/sass
-url: https://easybikepark.com/
-github:
-  url: https://easybikepark.com/
+url: https://easybikepark.com
 disqus_shortname: stratajekylldemo
 facebook_username:
 twitter_username: "#"
