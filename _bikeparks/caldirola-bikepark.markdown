@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: bp_post
 title: 'Caldirola Bike Park'
 name: 'Caldirola Bike Park'
 location: "Liguria"

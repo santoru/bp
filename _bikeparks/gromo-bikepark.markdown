@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: bp_post
 title: 'Gromo Bike Park'
 name: 'Gromo Bike Park'
 location: "Lombardia"
