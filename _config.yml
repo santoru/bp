@@ -21,7 +21,7 @@ gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
 
-
+collections_dir: _collections
 collections:
   bikeparks:
     output: true
