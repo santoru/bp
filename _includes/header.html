@@ -3,3 +3,4 @@
     <a href="{{ site.github.url }}/" class="image avatar"><img src="{{ site.github.url }}/images/avatar.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
   </header>
+  {% if page.prices %}<h2>Prezzo: {{ page.prices }}</h2>{% endif %}
