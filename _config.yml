@@ -4,7 +4,7 @@ copyright: Untitled
 sass:
   sass_dir: assets/sass
 url: https://easybikepark.com
-disqus_shortname: stratajekylldemo
+disqus_shortname:
 facebook_username:
 twitter_username: "#"
 linkedin_username: "#"
