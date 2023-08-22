@@ -1,7 +1,7 @@
 <!-- Header -->
   <header id="header">
-    <a href="{{ site.url }}/" class="image avatar"><img src="{{ site.url }}/images/avatar.jpg" alt="" /></a>
+    <a href="{{ site.url }}" class="image avatar"><img src="{{ site.url }}/images/avatar.jpg" alt="" /></a>
     <h1>{{ site.description | markdownify | remove: '<p>' | remove: '</p>' }}</h1>
-    {% if page.prices %}<h2>Prezzo: {{ page.prices }}</h2>{% endif %}
+    {% if page.prices %}<h2>{{ str_price }}: {{ page.prices }}{{ str_currency}}</h2>{% endif %}
   </header>
 
