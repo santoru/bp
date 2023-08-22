@@ -20,3 +20,9 @@ email: "#"
 gems: [jekyll-paginate]
 paginate_path: "/page/:num/"
 paginate: 5
+
+
+collections:
+  bikeparks:
+    output: true
+    permalink: /:collection/:path/
