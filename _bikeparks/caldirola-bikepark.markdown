@@ -1,10 +1,15 @@
 ---
 layout: post
 title: 'Caldirola Bike Park'
-categories: Meta
+name: 'Caldirola Bike Park'
+location: "Liguria"
+categories: bikepark
 excerpt: 'Hello World! Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit.'
-google-maps:
-prices: 22euro
+google-maps-link:
+website: "https://www.seggioviacaldirola.it/"
+email:
+prices: 22
+
 ---
 
 Hello World!
